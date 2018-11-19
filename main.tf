@@ -1,4 +1,4 @@
 resource "local_file" "foo" {
-    content     = "foo!"
+    content     = "Hello World from Terraform"
     filename = "${path.module}/foo.bar"
 }
