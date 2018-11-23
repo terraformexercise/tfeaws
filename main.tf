@@ -3,8 +3,8 @@ resource "local_file" "foo" {
     filename = "${path.module}/foo.bar"
 }
 variable "AUTHOR" {
-  description = "Name of Author"
-  default = "def"
+  description = "Name of Author "
+  default = "Ashish"
 }
 variable "mylocal1" {
   description = "Name of my local variable"
