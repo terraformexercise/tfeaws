@@ -4,9 +4,9 @@ resource "local_file" "foo" {
 }
 variable "AUTHOR" {
   description = "Name of Author "
-  default = "Ashish"
+  default = "Ashish from Dev branch "
 }
 variable "mylocal1" {
   description = "Name of my local variable"
-  default = "def"
+  default = "dev "
 }
